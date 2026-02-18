@@ -1,5 +1,18 @@
 `uvicorn <folder>.<filename>:<FastAPI_instance>`
 
+(if main.py or app.py in root)
+
+```
+uvicorn app:app --reload
+```
+(change port if want)
+
+```
+uvicorn app:app --reload --port 3001
+```
+
+if under api/....
+
 ```
 uvicorn api.index:app --reload --port 3001
 ```
@@ -19,14 +32,3 @@ Refered Vercel Official Doc: [FastAPI on Vercel](https://vercel.com/docs/framewo
 
 
 <hr>
-
-(if main.py in root)
-
-```
-uvicorn main:app --reload
-```
-(change port if want)
-
-```
-uvicorn main:app --reload --port 5000
-```
