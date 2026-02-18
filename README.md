@@ -14,6 +14,7 @@ uvicorn app:app --reload --port 3001
 ```
 
 if under api/....
+### For localdevelopment: better to install uvicorn manually: `pip install uvicorn`, then:
 
 ```
 uvicorn api.index:app --reload --port 3001
