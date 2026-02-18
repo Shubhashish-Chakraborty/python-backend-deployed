@@ -1,3 +1,5 @@
+## Go check it out live: [shubhpy.vercel.app](https://shubhpy.vercel.app)
+
 `uvicorn <folder>.<filename>:<FastAPI_instance>`
 
 (if main.py or app.py in root)
