@@ -3,4 +3,4 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-  return {"message": "This python backend Up & Running!!"}
+  return {"message": "This python backend is Up & Running!!"}
